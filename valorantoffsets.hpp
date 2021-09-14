@@ -7,7 +7,7 @@ namespace Offsets {
  
 	// player
 	uint64_t localplayers_array = 0x40;			// world > game_instance > localplayers_array
-	uint64_t localplayer = 0x38;				// world > game_instance > localplayers_array[0]
+	uint64_t localplayer = 0x40;				// world > game_instance > localplayers_array[0]
 	uint64_t player_controller = 0x38;			// world > game_instance > localplayers_array[0] > playercontroller
 	uint64_t apawn = 0x440;						// world > game_instance > localplayers_array[0] > playercontroller > apawn									// aactor > apawn
  
