@@ -12,7 +12,7 @@ namespace Offsets {
 	uint64_t apawn = 0x440;					// world > game_instance > localplayers_array[0] > playercontroller > apawn									// aactor > apawn
  
 	// vector
-	uint64_t root_component = 0x238;			// world > game_instance > localplayers_array[0] > playercontroller > apawn > root_component				// aactor > root_component
+	uint64_t root_component = 0x210;			// world > game_instance > localplayers_array[0] > playercontroller > apawn > root_component				// aactor > root_component
 	uint64_t position = 0x164;				// world > game_instance > localplayers_array[0] > playercontroller > apawn > root_component > position		// aactor > root_component > position
 	
 	// controllers
