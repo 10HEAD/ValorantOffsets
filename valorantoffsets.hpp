@@ -1,7 +1,7 @@
 namespace Offsets {
 	// global
-	uint64_t uworld_key = 0x87B67B8;
-	uint64_t uworld_state = 0x87B6780;
+	uint64_t uworld_key = 0x886ACB8;
+	uint64_t uworld_state = 0x886AC80;
 	uint64_t persistent_level = 0x38;			// world > persistent_level
 	uint64_t game_instance = 0x1A8;				// world > game_instance
  
@@ -40,6 +40,6 @@ namespace Offsets {
 	// mesh
 	uint64_t mesh = 0x410;					// world > persistent_level > aactor > mesh
 	uint64_t component_to_world = 0x250;			// world > persistent_level > aactor > mesh > component_to_world
-	uint64_t bone_array = 0x558;				//or 0x558 or 568;				// world > persistent_level > aactor > mesh > bone_array
+	uint64_t bone_array = 0x558;				// world > persistent_level > aactor > mesh > bone_array
 	uint64_t bone_count = 0x560;				// world > persistent_level > aactor > mesh > bone_array + (index * bone_count)
 }
