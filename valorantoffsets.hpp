@@ -1,7 +1,7 @@
 namespace Offsets {
 	// global
-	uint64_t uworld_key = 0x9057F78;
-	uint64_t uworld_state = 0x9057F40;
+	uint64_t uworld_key = 0x8FB6978;
+	uint64_t uworld_state = 0x8FB6940;
 	uint64_t persistent_level = 0x38;			// world > persistent_level
 	uint64_t game_instance = 0x1A8;				// world > game_instance
  
