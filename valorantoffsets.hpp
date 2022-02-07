@@ -34,7 +34,7 @@ namespace Offsets {
 	uint64_t team_component = 0x5A0;			// world > persistent_level > aactor > player_state > team_component
 	uint64_t team_id = 0xF8;				// world > persistent_level > aactor > team_component > team_id
 	uint64_t health = 0x1B0;				// world > persistent_level > aactor > damage_controller > health
-	uint64_t dormant = 0x120;				// world > persistent_level > aactor > dormant
+	uint64_t dormant = 0x100;				// world > persistent_level > aactor > dormant
 	uint64_t player_state = 0x3F0;				// world > persistent_level > aactor > player_state
  
 	// mesh
