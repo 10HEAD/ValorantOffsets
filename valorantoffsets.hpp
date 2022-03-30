@@ -1,7 +1,7 @@
 namespace offsets {
 	// global
-	uint64_t uworld_key = 0x9008AF8;
-	uint64_t uworld_state = 0x9008AC0;
+	uint64_t uworld_key = 0x9015538;
+	uint64_t uworld_state = 0x9015500;
 	uint64_t persistent_level = 0x38;			// world > persistent_level
 	uint64_t game_instance = 0x1A8;				// world > game_instance
 
@@ -16,7 +16,7 @@ namespace offsets {
 	uint64_t position = 0x164;				// world > game_instance > localplayers_array[0] > playercontroller > apawn > root_component > position		// aactor > root_component > position
 
 	// controllers
-	uint64_t damage_controller = 0x9A0;			// world > game_instance > localplayers_array[0] > playercontroller > apawn > damage_controller				// aactor > damage_controller
+	uint64_t damage_controller = 0x9A8;			// world > game_instance > localplayers_array[0] > playercontroller > apawn > damage_controller				// aactor > damage_controller
 	uint64_t camera_controller = 0x440;			// world > game_instance > localplayers_array[0] > playercontroller > camera_controller
 
 	// camera
