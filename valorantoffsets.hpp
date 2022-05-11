@@ -35,7 +35,7 @@ namespace offsets {
 	// level > actors info
 	uint64_t actor_id = 0x18;				// world > persistent_level > aactor > actor_id
 	uint64_t unique_id = 0x38;				// world > persistent_level > aactor > unique_id
-	uint64_t team_component = 0x5A0;			// world > persistent_level > aactor > player_state > team_component
+	uint64_t team_component = 0x5B0;			// world > persistent_level > aactor > player_state > team_component
 	uint64_t team_id = 0xF8;				// world > persistent_level > aactor > team_component > team_id
 	uint64_t health = 0x1B0;				// world > persistent_level > aactor > damage_controller > health
 	uint64_t dormant = 0x100;				// world > persistent_level > aactor > dormant
