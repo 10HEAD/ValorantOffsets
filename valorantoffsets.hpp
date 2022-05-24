@@ -1,8 +1,10 @@
 namespace offsets {
 	// global
-	uint64_t uworld_key = 0x8DBC878; 
-	uint64_t uworld_state = 0x8DBC840;
-	uint64_t line_of_sight = 0x48EFD00;
+	uint64_t uworld_key = 0x8E16EB8; 
+	uint64_t uworld_state = 0x8E16E80;
+	uint64_t line_of_sight = 0x4936D10;
+	uint64_t gobject_state = 0x8C71C80;
+	uint64_t gobject_key = 0x8C71CB8;
 	
 	// world
 	uint64_t persistent_level = 0x38;			// world > persistent_level
