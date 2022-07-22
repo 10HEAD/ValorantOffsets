@@ -5,7 +5,7 @@ namespace offsets {
 	uint64_t line_of_sight = 0x44DC000;
 	uint64_t bone_matrix = 0x44A46B0;
 	
-	uint64_t pakman_offset = 0x18E0700;
+	uint64_t pakman_offset = 0x18E0700;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 	
 	// world
 	uint64_t persistent_level = 0x38;			// world > persistent_level
