@@ -1,11 +1,11 @@
 namespace offsets {
 	// global
-	uint64_t uworld_key = 0x8853638; 
-	uint64_t uworld_state = 0x8853600;
-	uint64_t line_of_sight = 0x44DC000;
-	uint64_t bone_matrix = 0x44A46B0;
+	uint64_t uworld_key = 0x8E0C4B8; 
+	uint64_t uworld_state = 0x8E0C480;
+	uint64_t line_of_sight = 0x4914990;
+	uint64_t bone_matrix = 0x48DAA30;
 	
-	uint64_t pakman_offset = 0x18E0700;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
+	uint64_t pakman_offset = 0x1B41B50;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 	
 	// world
 	uint64_t persistent_level = 0x38;			// world > persistent_level
