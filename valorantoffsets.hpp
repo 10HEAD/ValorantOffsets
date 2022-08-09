@@ -9,7 +9,7 @@ namespace offsets {
 	
 	// world
 	uint64_t persistent_level = 0x38;			// world > persistent_level
-	uint64_t game_instance = 0x1A8;				// world > game_instance
+	uint64_t game_instance = 0x1A0;				// world > game_instance
 
 	// player
 	uint64_t localplayers_array = 0x40;			// world > game_instance > localplayers_array
