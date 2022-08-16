@@ -4,6 +4,8 @@ namespace offsets {
 	uint64_t uworld_state = 0x8E0C480;
 	uint64_t line_of_sight = 0x4914990;
 	uint64_t bone_matrix = 0x48DAA30;
+	uint64_t process_event = 0x3254110;
+	uint64_t static_find_obj = 0x3294190;
 	
 	uint64_t pakman_offset = 0x1B41B50;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 	
@@ -19,11 +21,10 @@ namespace offsets {
 
 	// vector
 	uint64_t root_component = 0x230;			// world > game_instance > localplayers_array[0] > playercontroller > apawn > root_component				// aactor > root_component
-	uint64_t position = 0x164;				// world > game_instance > localplayers_array[0] > playercontroller > apawn > root_component > position		// aactor > root_component > position
-	uint64_t rotation = 0x170;				// world > game_instance > localplayers_array[0] > playercontroller > apawn > root_component > rotation		// aactor > root_component > rotation
+	uint64_t root_position = 0x164;				// world > game_instance > localplayers_array[0] > playercontroller > apawn > root_component > root_position		// aactor > root_component > position
 	
 	// controllers
-	uint64_t damage_controller = 0x9A8;			// world > game_instance > localplayers_array[0] > playercontroller > apawn > damage_controller				// aactor > damage_controller
+	uint64_t damage_handler = 0x9A8;			// world > game_instance > localplayers_array[0] > playercontroller > apawn > damage_handler			// aactor > damage_controller
 	uint64_t camera_controller = 0x440;			// world > game_instance > localplayers_array[0] > playercontroller > camera_controller
 
 	// camera
@@ -49,6 +50,6 @@ namespace offsets {
 	// mesh
 	uint64_t mesh = 0x430;					// world > persistent_level > aactor > mesh
 	uint64_t component_to_world = 0x250;			// world > persistent_level > aactor > mesh > component_to_world
-	uint64_t bone_array = 0x558;				// world > persistent_level > aactor > mesh > bone_array
-	uint64_t bone_count = 0x560;				// world > persistent_level > aactor > mesh > bone_array + (index * bone_count)
+	uint64_t bone_array = 0x5B0;				// world > persistent_level > aactor > mesh > bone_array
+	uint64_t bone_count = 0x5B8;				// world > persistent_level > aactor > mesh > bone_array + (index * bone_count)
 }
