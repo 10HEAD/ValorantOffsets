@@ -28,9 +28,9 @@ namespace offsets {
 	uint64_t camera_controller = 0x440;			// world > game_instance > localplayers_array[0] > playercontroller > camera_controller
 
 	// camera
-	uint64_t camera_position = 0x1240;			// world > game_instance > localplayers_array[0] > playercontroller > camera_controller > camera_position
-	uint64_t camera_rotation = 0x124C;			// world > game_instance > localplayers_array[0] > playercontroller > camera_controller > camera_rotation
-	uint64_t camera_fov = 0x1258;				// world > game_instance > localplayers_array[0] > playercontroller > camera_controller > camera_fov
+	uint64_t camera_position = 0x1260;			// world > game_instance > localplayers_array[0] > playercontroller > camera_controller > camera_position
+	uint64_t camera_rotation = 0x126C;			// world > game_instance > localplayers_array[0] > playercontroller > camera_controller > camera_rotation
+	uint64_t camera_fov = 0x1278;				// world > game_instance > localplayers_array[0] > playercontroller > camera_controller > camera_fov
 	uint64_t camera_manager = 0x478;			// world > game_instance > localplayers_array[0] > playercontroller > camera_manager
 
 
