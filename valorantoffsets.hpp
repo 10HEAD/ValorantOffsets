@@ -6,8 +6,6 @@ namespace offsets {
 	uint64_t g_object_key = 0x8CE6838;
 	uint64_t line_of_sight = 0x495E1D0;
 	uint64_t bone_matrix = 0x49242E0;
-	uint64_t process_event = 0x32A0190;
-	uint64_t static_find_obj = 0x32E0210;
 	
 	uint64_t pakman_offset = 0x1B6CCA0;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 	
