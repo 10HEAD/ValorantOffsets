@@ -52,4 +52,6 @@ namespace offsets {
 	uint64_t component_to_world = 0x250;			// world > persistent_level > aactor > mesh > component_to_world
 	uint64_t bone_array = 0x5C0;				// world > persistent_level > aactor > mesh > bone_array
 	uint64_t bone_count = 0x5C8;				// world > persistent_level > aactor > mesh > bone_array + (index * bone_count)
+	uint64_t last_submit_time = 0x378;			// world > persistent_level > aactor -> mesh -> last_submit_time
+	uint64_t last_render_time = 0x37C;			// world > persistent_level > aactor -> mesh -> last_render_time
 }
