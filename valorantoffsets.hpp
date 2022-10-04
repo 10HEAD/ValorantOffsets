@@ -9,6 +9,19 @@ namespace offsets {
 	
 	uint64_t pakman_offset = 0x1D97FE0;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 	
+	// chams / glow chams : method1 - BlackMax97
+	uint64_t outline_mode = 0x330;				// mesh > outline_mode
+	uint64_t attach_children = 0x110;			// mesh > attach_children
+	uint64_t attach_children_count = 0x118;			// mesh > attach_children + 0x8
+	
+	// chams / glow chams : method2 - unknownjunks
+	uint64_t outline_component = 0x10b8;			// actor > outline_component3p
+	uint64_t outline_mode = 0x2B1;				// outline_component3p > outline_mode
+	
+	// chams / glow chams colors
+	uint64_t outline_ally_color = 0x917D150;		// game_base
+	uint64_t outline_enemy_color = 0x917D9E0;		// game_base
+	
 	// world
 	uint64_t persistent_level = 0x38;			// world > persistent_level
 	uint64_t game_instance = 0x1A0;				// world > game_instance
