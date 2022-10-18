@@ -1,14 +1,14 @@
 namespace offsets {
 	// global
-	uint64_t uworld_state = 0x9261900; 			// game_base (Pointer: 0x60)
-	uint64_t uworld_key = 0x9261938;			// game_base
-	uint64_t g_object_state = 0x90CFC00;			// game_base
-	uint64_t g_object_key = 0x90CFC38;			// game_base
-	uint64_t line_of_sight = 0x4BCF880;			// game_base
-	uint64_t bone_matrix = 0x4B95990;			// game_base
+	uint64_t uworld_state = 0x9282940; 			// game_base (Pointer: 0x60)
+	uint64_t uworld_key = 0x9282978;			// game_base
+	uint64_t g_object_state = 0x90F0B40;			// game_base
+	uint64_t g_object_key = 0x90F0B78;			// game_base
+	uint64_t line_of_sight = 0x4BE1D40;			// game_base
+	uint64_t bone_matrix = 0x4BA7E50;			// game_base
 	
 	// veh deref
-	uint64_t pakman_offset = 0x1D97FE0;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
+	uint64_t pakman_offset = 0x1D9DC50;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 		
 	// world
 	uint64_t persistent_level = 0x38;			// world > persistent_level
@@ -66,8 +66,8 @@ namespace offsets {
 	uint64_t outline_mode = 0x2B1;				// outline_component3p > outline_mode
 	
 	// chams / glow chams colors
-	uint64_t outline_ally_color = 0x917C190;		// game_base
-	uint64_t outline_enemy_color = 0x917CA20;		// game_base
+	uint64_t outline_ally_color = 0x919D470;		// game_base
+	uint64_t outline_enemy_color = 0x919DB00;		// game_base
 	
 	// minimap
 	uint64_t portrait_minimap_component = 0x1090;		// actor > portrait_minimap_component
