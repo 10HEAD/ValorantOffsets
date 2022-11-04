@@ -66,8 +66,8 @@ namespace offsets {
 	uint64_t outline_mode = 0x2B1;				// outline_component3p > outline_mode
 	
 	// chams / glow chams colors
-	uint64_t outline_ally_color = 0x8ED2980;		// game_base
-	uint64_t outline_enemy_color = 0x8ED3010;		// game_base
+	uint64_t outline_ally_color = 0x8ED2A00;		// game_base
+	uint64_t outline_enemy_color = 0x8ED3090;		// game_base
 	
 	// minimap
 	uint64_t portrait_minimap_component = 0x1090;		// actor > portrait_minimap_component
