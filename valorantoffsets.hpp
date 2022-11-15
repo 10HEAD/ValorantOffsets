@@ -6,8 +6,9 @@ namespace offsets {
 	uint64_t g_object_key = 0x8E4D738;			// game_base
 	uint64_t line_of_sight = 0x50e6550;			// game_base
 	uint64_t bone_matrix = 0x498F1E0;			// game_base
-	uintptr_t find_object = 0x3347E30;			// game_base
-	uintptr_t process_event = 0x3306FA0;			// game_base
+	uint64_t find_object = 0x3347E30;			// game_base
+	uint64_t process_event = 0x3306FA0;			// game_base
+	uint64_t skin_changer_decryption = 0x23D3C20;	 	// game_base
 	
 	// veh deref
 	uint64_t pakman_offset = 0x1B67F90;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
