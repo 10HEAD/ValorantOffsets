@@ -73,8 +73,8 @@ namespace offsets {
 	uint64_t outline_enemy_color = 0x8EFA7E0;		// game_base
 	
 	// minimap
-	uint64_t portrait_minimap_component = 0x1090;		// actor > portrait_minimap_component
-	uint64_t character_minimap_component = 0x1098;		// actor > character_minimap_component
+	uint64_t portrait_minimap_component = 0x10B0;		// actor > portrait_minimap_component
+	uint64_t character_minimap_component = 0x10B8;		// actor > character_minimap_component
 	uint64_t local_observer = 0x530;			// minimap_component > local_observer
 	uint64_t is_visible = 0x501;				// minimap_component > is_visible
 }
