@@ -65,7 +65,7 @@ namespace offsets {
 	uint64_t attach_children_count = 0x118;			// mesh > attach_children + 0x8
 	
 	// chams / glow chams : method2 - unknownjunks
-	uint64_t outline_component = 0x10b8;			// actor > outline_component3p
+	uint64_t outline_component = 0x10d8;			// actor > outline_component3p
 	uint64_t outline_mode = 0x2B1;				// outline_component3p > outline_mode
 	
 	// chams / glow chams colors
