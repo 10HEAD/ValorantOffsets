@@ -1,17 +1,17 @@
 namespace offsets {
 	// global
-	uint64_t uworld_state = 0x8FDF540; 			// game_base (Pointer: 0x60)
-	uint64_t uworld_key = 0x8FDF578;			// game_base
-	uint64_t g_object_state = 0x8E4D700;			// game_base
-	uint64_t g_object_key = 0x8E4D738;			// game_base
-	uint64_t line_of_sight = 0x50e6550;			// game_base
-	uint64_t bone_matrix = 0x498F1E0;			// game_base
-	uint64_t find_object = 0x3347E30;			// game_base
-	uint64_t process_event = 0x3306FA0;			// game_base
-	uint64_t skin_changer_decryption = 0x23D3C20;	 	// game_base
+	uint64_t uworld_state = 0x9005A80; 			// game_base (Pointer: 0x60)
+	uint64_t uworld_key = 0x9005AB8;			// game_base
+	uint64_t g_object_state = 0x8E73980;			// game_base
+	uint64_t g_object_key = 0x8E739B8;			// game_base
+	uint64_t line_of_sight = 0x49DBE90;			// game_base
+	uint64_t bone_matrix = 0x49A7A80;			// game_base
+	uint64_t find_object = 0x3360180;			// game_base
+	uint64_t process_event = 0x3321F70;			// game_base
+	uint64_t skin_changer_decryption = 0x23DCD00;	 	// game_base
 	
 	// veh deref
-	uint64_t pakman_offset = 0x1B67F90;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
+	uint64_t pakman_offset = 0x1B6D880;                     // deref_pointer_in_game_space_fn - https://www.unknowncheats.me/forum/valorant/503616-dumping-valorant-perfect-results-easy.html
 		
 	// world
 	uint64_t persistent_level = 0x38;			// world > persistent_level
@@ -65,16 +65,16 @@ namespace offsets {
 	uint64_t attach_children_count = 0x118;			// mesh > attach_children + 0x8
 	
 	// chams / glow chams : method2 - unknownjunks
-	uint64_t outline_component = 0x10d8;			// actor > outline_component3p
+	uint64_t outline_component = 0x10e8;			// actor > outline_component3p
 	uint64_t outline_mode = 0x2B1;				// outline_component3p > outline_mode
 	
 	// chams / glow chams colors
-	uint64_t outline_ally_color = 0x8EFA150;		// game_base
-	uint64_t outline_enemy_color = 0x8EFA7E0;		// game_base
+	uint64_t outline_ally_color = 0x8F1F120;		// game_base
+	uint64_t outline_enemy_color = 0x8F20A00;		// game_base
 	
 	// minimap
-	uint64_t portrait_minimap_component = 0x10B0;		// actor > portrait_minimap_component
-	uint64_t character_minimap_component = 0x10B8;		// actor > character_minimap_component
+	uint64_t portrait_minimap_component = 0x10c0;		// actor > portrait_minimap_component
+	uint64_t character_minimap_component = 0x10c8;		// actor > character_minimap_component
 	uint64_t local_observer = 0x530;			// minimap_component > local_observer
 	uint64_t is_visible = 0x501;				// minimap_component > is_visible
 }
